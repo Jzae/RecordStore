@@ -1,3 +1,4 @@
+// Make all choices into functions
 #include <iostream>
 #include <vector>
 #include <string>
