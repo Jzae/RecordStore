@@ -24,8 +24,14 @@ int main() {
 		}
 		// Show All Records
 		else if (input == 2) {
+			std::string line;
 			std::ifstream records("records.txt");
-
+			while (getline(records, line))
+			{
+				std::cout << line << '\n';
+			}
+			records.close();
+			std::cout << "------------------------------" << std::endl;
 		}
 		// Search Records
 		else if (input == 3) {
