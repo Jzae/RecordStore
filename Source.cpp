@@ -1,4 +1,6 @@
 // Make all choices into functions
+// Learn how to search in a text files
+// Figure out how to make classes for text files
 #include <iostream>
 #include <vector>
 #include <string>
